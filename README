@@ -1,4 +1,13 @@
-Modified chat room demo, with song uploading support and playback
+Disc-Jockey is a combination chat room and shared playlist written in Coffeescript running on Node.JS.
+It supports file upload, youtube links, and soundcloud links.
 
-to run
+Demo: http://jockey.nodester.com
+
+To run
 $ /usr/local/bin/node server.js
+
+To contribute, you'll also need to install coffeescript:
+npm install -g coffee-script
+
+Now, to autoconvert your coffeescript to javascript every time you save, run:
+coffee --watch --compile *.coffee
